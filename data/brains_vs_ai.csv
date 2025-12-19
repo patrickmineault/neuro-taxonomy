@@ -1,0 +1,35 @@
+function,region,level,explanation,ca_concept,alt,alt2
+Planning,Frontal,L2,,planning
+Logical Reasoning,Frontal,L2,,reasoning
+Decision-making,Frontal,L2,,decision making
+Working Memory,Frontal,L2,,working memory
+Cognitive Flexibility,Frontal,L3,Cognitive flexibility and inhibitory control: Frontal lobes allow us to shift strategies or perspectives and to suppress inappropriate impulses.,task shifting,,
+Inhibitory Control,Frontal,L3,,inhibition,,
+Social Functions,Frontal,L3,,social cognition,,
+Empathy,Frontal,L3,,empathy,,
+Theory of Mind,Frontal,L3,,theory of mind,,
+Self-reflection,Frontal,L3,,self monitoring,,
+Reward Mechanisms,Frontal,L2,???,reward learning,,
+Multisensory Integration,Parietal,L2,,multisensory integration,,
+Spatial Representation and Mapping,Parietal,L2,,spatial cognition,,
+Attention,Parietal,L2,,attention,,
+Sensorimotor Coordination,Parietal,L2,"Sensorimotor coordination: Parietal lobe helps translate between sensory coordinates and motor coordinates – for instance, computing how to reach for a seen object (integrating visual location with arm position",sensorimotor coordination*,,
+Tactile Perception,Parietal,L3,,NA,,
+Visual Perception,Occipital,L1,,visual perception,,
+Scene Understanding / Visual Reasoning,Occipital,L2,,visual scene perception ,,
+Visual Attention and Eye Movements,Occipital,L2,,visual attention,,
+Language Comprehension,Temporal,L1,,language comprehension,,Source: https://arxiv.org/abs/2504.01990
+Language Production,Temporal,L1,,language production,,
+Face Recognition,Temporal,L1,,face perception,,
+Auditory Processing,Temporal,L1,,auditory perception,,
+Episodic Memory,Temporal,L3,,episodic memory,,
+Lifelong Learning,Temporal,L3,,learning,,
+Semantic Understanding & Context Recognition,Temporal,L2,,semantic memory,,
+Adaptive Error Correction,Cerebellum,L2,,motor control,,
+Skill Learning,Cerebellum,L2,,motor learning,,
+Motor Coordination,Cerebellum,L2,,motor control,,
+Cognitive Timing & Predictive Modeling,Cerebellum,L3,,temporal cognition,,
+Reflexive Responses,Brain Stem,L1,,NA,,
+Autonomic Regulation,Brain Stem,L3,,NA,,
+Arousal & Attention States,Brain Stem,L3,,arousal,,
+Motivational Drives,Brain Stem,L3,,appetitive motivation,,

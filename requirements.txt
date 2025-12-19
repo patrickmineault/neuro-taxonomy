@@ -1,0 +1,9 @@
+pandas
+numpy
+nimare
+neuroquery
+sentence-transformers
+anthropic
+requests
+tqdm
+python-dotenv

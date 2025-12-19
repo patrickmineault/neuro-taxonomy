@@ -1,0 +1,35 @@
+function,region,level,explanation,ca_concept,alt,alt2,ca_concept_neurosynth_annotations_exact,ca_concept_neurosynth_annotations_homonyms,ca_concept_neuroquery_annotations_exact,ca_concept_neurosynth_cogat,ca_concept_neuroquery_cogat,ca_concept_neurosynth_cogat_expanded,ca_concept_neuroquery_cogat_expanded,ca_concept_neuroquery_total_sim,ca_concept_neuroquery_min_sum,ca_concept_neurosynth_embedding,ca_concept_neuroquery_embedding
+Planning,Frontal,L2,,planning,,,258.0,258.0,2139.0,197.0,147.0,197.0,147.0,150.288860066072,63.0,37.0,25.0
+Logical Reasoning,Frontal,L2,,reasoning,,,182.0,182.0,1440.0,164.0,140.0,252.0,220.0,62.16949913145854,96.0,46.0,36.0
+Decision-making,Frontal,L2,,decision making,,,509.0,1684.0,2389.0,240.0,192.0,4787.0,4377.0,124.18443850144222,314.0,293.0,235.0
+Working Memory,Frontal,L2,,working memory,,,1091.0,1091.0,4424.0,993.0,869.0,1467.0,1298.0,225.24970513088485,601.0,389.0,297.0
+Cognitive Flexibility,Frontal,L3,Cognitive flexibility and inhibitory control: Frontal lobes allow us to shift strategies or perspectives and to suppress inappropriate impulses.,task shifting,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,314.4017964890146,329.0,639.0,462.0
+Inhibitory Control,Frontal,L3,,inhibition,,,601.0,1405.0,4517.0,451.0,401.0,717.0,653.0,125.99430837757873,300.0,207.0,170.0
+Social functions,Frontal,L3,,social cognition,,,220.0,318.0,1182.0,219.0,241.0,355.0,366.0,90.58460914021279,224.0,303.0,265.0
+Empathy,Frontal,L3,,empathy,,,187.0,280.0,779.0,187.0,182.0,329.0,316.0,87.46250926956432,181.0,136.0,127.0
+Theory of Mind,Frontal,L3,,theory of mind,,,0.0,181.0,0.0,162.0,154.0,165.0,156.0,71.61792172847235,172.0,75.0,63.0
+Self-reflection,Frontal,L3,,self monitoring,,,0.0,894.0,277.0,1.0,0.0,1.0,0.0,87.52417349480424,14.0,36.0,31.0
+Reward Mechanisms,Frontal,L2,???,reward learning,,,0.0,1206.0,195.0,16.0,16.0,1472.0,1319.0,63.97375075991383,17.0,545.0,443.0
+Multisensory integration,Parietal,L2,,multisensory integration,,,0.0,146.0,222.0,43.0,31.0,43.0,31.0,44.24468530196726,39.0,75.0,47.0
+Spatial representation and mapping,Parietal,L2,,spatial cognition,,,0.0,0.0,99.0,13.0,7.0,13.0,7.0,61.025256129144054,5.0,459.0,309.0
+Attention,Parietal,L2,,attention,,,1831.0,2894.0,9595.0,1557.0,1391.0,1979.0,1748.0,254.5795739445382,718.0,858.0,592.0
+Sensorimotor Coordination,Parietal,L2,"Sensorimotor coordination: Parietal lobe helps translate between sensory coordinates and motor coordinates – for instance, computing how to reach for a seen object (integrating visual location with arm position",sensorimotor coordination*,,,0.0,854.0,0.0,0.0,0.0,0.0,0.0,165.43046478672343,214.0,101.0,51.0
+Tactile Perception,Parietal,L3,,,,,,,,,,,,,,,
+Visual Perception,Occipital,L1,,visual perception,,,83.0,3547.0,648.0,83.0,71.0,824.0,736.0,76.97009678078038,49.0,293.0,201.0
+Scene Understanding / Visual Reasoning,Occipital,L2,,visual scene perception ,,,0.0,0.0,0.0,2.0,1.0,2.0,1.0,258.06124471161337,587.0,245.0,172.0
+Visual Attention and Eye Movements,Occipital,L2,,visual attention,,,124.0,464.0,918.0,111.0,85.0,253.0,183.0,91.23943068205853,63.0,1027.0,702.0
+Language Comprehension,Temporal,L1,,language comprehension,,Source: https://arxiv.org/abs/2504.01990,107.0,608.0,500.0,106.0,87.0,496.0,427.0,65.93126614870818,64.0,201.0,150.0
+Language Production,Temporal,L1,,language production,,,0.0,0.0,310.0,41.0,50.0,144.0,151.0,72.39120001917723,39.0,146.0,117.0
+Face Recognition,Temporal,L1,,face perception,,,0.0,79.0,413.0,57.0,52.0,376.0,323.0,63.01266137952713,74.0,406.0,317.0
+Auditory Processing,Temporal,L1,,auditory perception,,,0.0,1367.0,197.0,21.0,11.0,100.0,78.0,64.56312587326838,24.0,362.0,257.0
+Episodic Memory,Temporal,L3,,episodic memory,,,332.0,820.0,1812.0,292.0,247.0,477.0,419.0,102.33885577939681,264.0,738.0,591.0
+Lifelong Learning,Temporal,L3,,learning,,,1144.0,1640.0,5239.0,1011.0,908.0,2608.0,2330.0,213.76381805807372,580.0,58.0,37.0
+Semantic Understanding & Context Recognition,Temporal,L2,,semantic memory,,,123.0,123.0,642.0,112.0,94.0,112.0,94.0,88.44600298545893,93.0,629.0,473.0
+Adaptive Error Correction,Cerebellum,L2,,motor control,,,214.0,2779.0,1224.0,209.0,171.0,761.0,690.0,102.33722935558578,94.0,416.0,266.0
+Skill Learning,Cerebellum,L2,,motor learning,,,0.0,1144.0,401.0,59.0,53.0,59.0,53.0,81.14186392518829,69.0,330.0,241.0
+Motor Coordination,Cerebellum,L2,,motor control,,,214.0,3119.0,1224.0,209.0,171.0,761.0,690.0,102.33722935558578,94.0,416.0,266.0
+Cognitive Timing & Predictive Modeling,Cerebellum,L3,,temporal cognition,,,0.0,0.0,0.0,2.0,1.0,206.0,169.0,309.8218543123799,604.0,282.0,219.0
+Reflexive Responses,Brain Stem,L1,,,,,,,,,,,,,,,
+Autonomic Regulation,Brain Stem,L3,,,,,,,,,,,,,,,
+Arousal & Attention States,Brain Stem,L3,,arousal,,,295.0,295.0,2230.0,295.0,254.0,295.0,254.0,83.70836754743453,116.0,222.0,190.0
+Motivational Drives,Brain Stem,L3,,appetitive motivation,,,0.0,381.0,36.0,7.0,4.0,7.0,4.0,60.139435695799214,3.0,176.0,132.0

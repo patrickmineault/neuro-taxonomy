@@ -1,0 +1,63 @@
+function,homonym,function_similarity,ca_concept_similarity
+Adaptive Error Correction,motor control,0.12395624816417694,1.0000001192092896
+Adaptive Error Correction,motor,0.026645714417099953,0.8312835693359375
+Arousal & Attention States,arousal,0.8160671591758728,1.0
+Attention,attention,1.0000001192092896,1.0000001192092896
+Attention,attentional,0.8796360492706299,0.8796360492706299
+Attention,selective attention,0.8177932500839233,0.8177932500839233
+Attention,attention task,0.8030372262001038,0.8030372262001038
+Auditory Processing,auditory,0.8483177423477173,0.8689814805984497
+Auditory Processing,auditory stimuli,0.856830358505249,0.8654361963272095
+Autonomic Regulation,autonomic,0.8075647354125977,0.0
+Decision-making,decision making,0.9524423480033875,1.0000001192092896
+Decision-making,decisions,0.8265399932861328,0.8661400079727173
+Decision-making,decision,0.7870112657546997,0.8246583938598633
+Empathy,empathy,1.0000001192092896,1.0000001192092896
+Empathy,empathic,0.7844530344009399,0.7844530344009399
+Episodic Memory,episodic memory,1.0,1.0
+Episodic Memory,episodic,0.7948472499847412,0.7948472499847412
+Face Recognition,face recognition,1.0000001192092896,0.7265626788139343
+Inhibitory Control,inhibitory control,1.0000001192092896,0.8105366230010986
+Inhibitory Control,inhibition,0.8105365633964539,1.0
+Inhibitory Control,inhibit,0.7785543203353882,0.8217126131057739
+Inhibitory Control,inhibitory,0.8128588199615479,0.8057361245155334
+Inhibitory Control,response inhibition,0.6616519689559937,0.8125865459442139
+Language Comprehension,language comprehension,1.0,1.0
+Language Comprehension,sentence comprehension,0.8696706891059875,0.8696706891059875
+Language Comprehension,comprehension,0.8520557284355164,0.8520557284355164
+Lifelong Learning,learning,0.6922054290771484,1.0
+Lifelong Learning,learn,0.5754872560501099,0.8077405691146851
+Lifelong Learning,learned,0.5524365901947021,0.7531344294548035
+Logical Reasoning,reasoning,0.8368672132492065,0.9999998807907104
+Motivational Drives,motivation,0.7536801099777222,0.7506804466247559
+Motivational Drives,motivational,0.7523028254508972,0.7233541011810303
+Motor Coordination,motor control,0.7008518576622009,1.0000001192092896
+Motor Coordination,motor,0.6402316093444824,0.8312835693359375
+Motor Coordination,coordination,0.776609480381012,0.4170224070549011
+Motor Coordination,motor task,0.7552382946014404,0.7765278220176697
+Motor Coordination,motor function,0.6475517153739929,0.7590242624282837
+Multisensory integration,multisensory,0.7542924284934998,0.7542924284934998
+Planning,planning,1.0,1.0
+Reward Mechanisms,reinforcement learning,0.508635401725769,0.7835724353790283
+Reward Mechanisms,reward anticipation,0.7824664115905762,0.7179922461509705
+Reward Mechanisms,reward,0.7668548822402954,0.7577674388885498
+Reward Mechanisms,rewarding,0.7606897354125977,0.7491710186004639
+Self-reflection,monitoring,0.2683579921722412,0.8082082867622375
+Self-reflection,reflecting,0.7512576580047607,0.3248637020587921
+Sensorimotor Coordination,sensorimotor,0.8314852118492126,0.8205968141555786
+Sensorimotor Coordination,sensorimotor network,0.785832405090332,0.751395046710968
+Sensorimotor Coordination,primary sensorimotor,0.7799252271652222,0.7577866315841675
+Skill Learning,learning,0.8429198265075684,0.6700467467308044
+Social functions,social cognition,0.6163047552108765,1.0
+Social functions,social cognitive,0.6129399538040161,0.908470869064331
+Tactile Perception,tactile,0.9162647724151611,0.0
+Theory of Mind,theory mind,0.8766975402832031,0.8766975402832031
+Visual Attention and Eye Movements,visual attention,0.830431342124939,1.000000238418579
+Visual Attention and Eye Movements,spatial attention,0.6981303095817566,0.8484326601028442
+Visual Attention and Eye Movements,eye movements,0.8188687562942505,0.553057074546814
+Visual Attention and Eye Movements,eye movement,0.7856869101524353,0.54876708984375
+Visual Perception,visual perception,1.0,1.0
+Visual Perception,visual stimuli,0.8296804428100586,0.8296804428100586
+Visual Perception,visual stimulus,0.802933931350708,0.802933931350708
+Visual Perception,visual,0.7514222264289856,0.7514222264289856
+Working Memory,working memory,1.0000001192092896,1.0000001192092896

@@ -3,7 +3,7 @@ Batch categorize Neuroquery papers using Claude API.
 
 This script:
 1. Loads paper titles and abstracts from Neuroquery dataset
-2. Loads taxonomy from cognitive_capacities.csv
+2. Loads taxonomy from cognitive_functions.csv
 3. Sends batch requests to Claude API (Sonnet 4.5) to categorize each paper
 4. Caches results to handle failures and resume
 5. Saves final results to CSV
@@ -28,7 +28,7 @@ load_dotenv()
 MODEL_NAME = "claude-sonnet-4-5-20250929"
 
 
-def load_taxonomy(taxonomy_path="cognitive_capacities.csv"):
+def load_taxonomy(taxonomy_path="data/cognitive_functions.csv"):
     """Load taxonomy from CSV file."""
     df = pd.read_csv(taxonomy_path)
 
@@ -369,7 +369,7 @@ def get_source_name(source):
 
 
 def main(
-    taxonomy_path="cognitive_capacities.csv",
+    taxonomy_path="data/cognitive_functions.csv",
     source="neuroquery",
     data_dir="data",
     output_dir="results",
@@ -470,7 +470,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--taxonomy",
         type=str,
-        default="data/cognitive_capacities.csv",
+        default="data/cognitive_functions.csv",
         help="Path to taxonomy CSV file",
     )
     parser.add_argument(

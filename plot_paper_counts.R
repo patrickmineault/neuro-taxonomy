@@ -60,12 +60,12 @@ for ( colname in cols ) {
 # Paper categories from Claude classification
 # =============================================================================
 
-# Load taxonomy for level mapping (from brains_vs_ai.csv)
-taxonomy_df <- read.csv("data/brains_vs_ai.csv") %>%
-  select(function., level) %>%
-  filter(!is.na(function.) & function. != "NA") %>%
+# Load taxonomy for level mapping (from cognitive_functions.csv)
+taxonomy_df <- read.csv("data/cognitive_functions.csv") %>%
+  select(Capacity, AI_Tier) %>%
+  filter(!is.na(Capacity) & Capacity != "NA") %>%
   distinct() %>%
-  rename(Capacity = function., Level = level)
+  rename(Level = AI_Tier)
 
 # Define data sources
 data_sources <- list(
@@ -232,10 +232,11 @@ cat("\nCreating combined three-panel plot...\n")
 psych_df <- read.csv("data/psych_datasets.csv")
 psych_df <- psych_df %>% filter(is_valid == TRUE)
 
-concepts_df <- read.csv("data/brains_vs_ai.csv") %>%
-  filter(!is.na(ca_concept) & ca_concept != "NA") %>%
-  select(ca_concept, level) %>%
-  distinct()
+concepts_df <- read.csv("data/cognitive_functions.csv") %>%
+  filter(!is.na(Capacity) & Capacity != "NA") %>%
+  select(Capacity, AI_Tier) %>%
+  distinct() %>%
+  rename(ca_concept = Capacity, level = AI_Tier)
 
 # Create study-concept pairs
 study_concept_list <- list()

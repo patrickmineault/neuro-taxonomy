@@ -7,11 +7,12 @@ load_study_concept_data <- function() {
   psych_df <- read.csv("data/psych_datasets.csv")
   psych_df <- psych_df %>% filter(is_valid == TRUE)
   
-  # Read brains_vs_ai for ca_concept and level mapping
-  concepts_df <- read.csv("data/brains_vs_ai.csv") %>%
-    filter(!is.na(ca_concept) & ca_concept != "NA") %>%
-    select(ca_concept, level) %>%
-    distinct()
+  # Read cognitive_functions for ca_concept and level mapping
+  concepts_df <- read.csv("data/cognitive_functions.csv") %>%
+    filter(!is.na(Capacity) & Capacity != "NA") %>%
+    select(Capacity, AI_Tier) %>%
+    distinct() %>%
+    rename(ca_concept = Capacity, level = AI_Tier)
   
   # Create a long-format dataframe: one row per study-concept pair
   study_concept_list <- list()
